@@ -72,13 +72,17 @@ execution_queue=(
     "sudo apt install -y git"
     "git config --global user.email bruno.cesar@outlook.it"
     "git config --global user.name Bruno Cesar"
-    # install flutter
+    # install flutter via snap
     "sudo apt install -y clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev"
     "sudo snap install flutter --classic"
     # install android-studio
     "sudo snap install android-studio --classic"
     # install vscode
     "sudo snap install code --classic"
+    # install vlc via snap
+    "sudo snap install vlc"
+    # install spotify via snap
+    "sudo snap install spotify"
 )
 
 # Iterar pela lista de execuções e rodar cada um

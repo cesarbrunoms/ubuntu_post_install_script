@@ -1,8 +1,15 @@
 # Ubuntu Post Install Script
 <details><summary>Script DTI PMA</summary>
- 
+
  ~~~shell
-irm https://raw.githubusercontent.com/cesarbrunoms/ubuntu_post_install_script/main/after_install_ubuntu.sh | iex  
+# Baixar o script do GitHub
+wget https://raw.githubusercontent.com/cesarbrunoms/ubuntu_post_install_script/main/after_install_ubuntu.sh
+
+# Dar permissão de execução ao script baixado
+chmod +x after_install_ubuntu.sh
+
+# Executar o script baixado
+bash after_install_ubuntu.sh
   
 ~~~  
 </details>

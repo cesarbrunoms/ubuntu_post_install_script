@@ -1,4 +1,12 @@
 # Ubuntu Post Install Script
+<details><summary>Script DTI PMA</summary>
+ 
+ ~~~shell
+irm https://raw.githubusercontent.com/cesarbrunoms/ubuntu_post_install_script/main/after_install_ubuntu.sh | iex  
+  
+~~~  
+</details>
+
 ## Preparing Flutter Environment on Ubuntu
 Este repositório contém um script de pós instalação para o Linux Ubuntu 22.04 LTS.
 Este script instala o básico para quem deseja um Linux Ubuntu para desenvolvimento em Flutter.
